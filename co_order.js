@@ -41,7 +41,7 @@ window.addEventListener("load", function () {
       orderForm.elements.model.onchange = calcOrder;
       orderForm.elements.qty.onchange = calcOrder;
 
-      var planOptions = document.querySelectorAll("input[name='protections']");
+      var planOptions = document.querySelectorAll("input[name='protection']");
 
       for (var i = 0; i < planOptions.length; i++) {
             planOptions[i].onclick = calcOrder;
