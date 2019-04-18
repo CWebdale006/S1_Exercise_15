@@ -157,11 +157,11 @@ function sumDigits(numStr) {
 function luhn(idNum) {
       var string1 = "";
       var string2 = "";
-      // Retrieve the odd number digits 
+      // Retrieve the odd numbered digits 
       for (var i = idNum.length - 1; i >= 0; i -= 2) {
             string1 += idNum.charAt(i);
       }
-      // Retrieve the even number digits 
+      // Retrieve the even numbered digits 
       for (var i = idNum.length - 2; i >= 0; i -= 2) {
             string2 += 2 * idNum.charAt(i);
       }
